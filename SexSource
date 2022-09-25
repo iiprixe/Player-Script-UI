@@ -1,0 +1,1115 @@
+-- Instances: 42 | Scripts: 10 | Modules: 0
+local G2L = {};
+
+-- StarterGui.ScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+
+
+-- StarterGui.ScreenGui.Main
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["2"]["Size"] = UDim2.new(0, 275, 0, 181);
+G2L["2"]["Position"] = UDim2.new(0.20527859032154083, 0, 0.4117647111415863, 0);
+G2L["2"]["Name"] = [[Main]];
+
+-- StarterGui.ScreenGui.Main.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+
+
+-- StarterGui.ScreenGui.Main.UIStroke
+G2L["4"] = Instance.new("UIStroke", G2L["2"]);
+G2L["4"]["Color"] = Color3.fromRGB(171, 86, 255);
+G2L["4"]["Thickness"] = 2;
+G2L["4"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.ScreenGui.Main.NameT
+G2L["5"] = Instance.new("TextBox", G2L["2"]);
+G2L["5"]["CursorPosition"] = -1;
+G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["TextWrapped"] = true;
+G2L["5"]["TextSize"] = 20;
+G2L["5"]["TextScaled"] = true;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["5"]["PlaceholderText"] = [[DN/UN]];
+G2L["5"]["Size"] = UDim2.new(0, 231, 0, 50);
+G2L["5"]["Text"] = [[]];
+G2L["5"]["Position"] = UDim2.new(0.07999999821186066, 0, 0.04053300619125366, 0);
+G2L["5"]["Font"] = Enum.Font.Unknown;
+G2L["5"]["Name"] = [[NameT]];
+G2L["5"]["ClearTextOnFocus"] = false;
+
+-- StarterGui.ScreenGui.Main.NameT.UICorner
+G2L["6"] = Instance.new("UICorner", G2L["5"]);
+
+
+-- StarterGui.ScreenGui.Main.NameT.UIStroke
+G2L["7"] = Instance.new("UIStroke", G2L["5"]);
+G2L["7"]["Color"] = Color3.fromRGB(171, 86, 255);
+G2L["7"]["Thickness"] = 2;
+G2L["7"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.ScreenGui.Main.NameT.DropShadow
+G2L["8"] = Instance.new("ImageLabel", G2L["5"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["ImageColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["8"]["ImageTransparency"] = 0.5;
+G2L["8"]["Image"] = [[rbxassetid://297694300]];
+G2L["8"]["Size"] = UDim2.new(1.235374927520752, 0, 1.25, 0);
+G2L["8"]["Name"] = [[DropShadow]];
+G2L["8"]["BackgroundTransparency"] = 1;
+G2L["8"]["Position"] = UDim2.new(-0.11268746852874756, 0, -0.12186983972787857, 0);
+
+-- StarterGui.ScreenGui.Main.btnsHolder
+G2L["9"] = Instance.new("Frame", G2L["2"]);
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["9"]["BackgroundTransparency"] = 1;
+G2L["9"]["Size"] = UDim2.new(0, 231, 0, 108);
+G2L["9"]["Position"] = UDim2.new(0.07800581306219101, 0, 0.36069822311401367, 0);
+G2L["9"]["Name"] = [[btnsHolder]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport
+G2L["a"] = Instance.new("TextButton", G2L["9"]);
+G2L["a"]["TextWrapped"] = true;
+G2L["a"]["TextSize"] = 14;
+G2L["a"]["TextScaled"] = true;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["Size"] = UDim2.new(0, 96, 0, 36);
+G2L["a"]["Name"] = [[Teleport]];
+G2L["a"]["Text"] = [[Teleport]];
+G2L["a"]["Font"] = Enum.Font.Unknown;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.UIStroke
+G2L["b"] = Instance.new("UIStroke", G2L["a"]);
+G2L["b"]["Color"] = Color3.fromRGB(171, 86, 255);
+G2L["b"]["Thickness"] = 2;
+G2L["b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.UICorner
+G2L["c"] = Instance.new("UICorner", G2L["a"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.DropShadow
+G2L["d"] = Instance.new("ImageLabel", G2L["a"]);
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["ImageColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["d"]["ImageTransparency"] = 0.5;
+G2L["d"]["Image"] = [[rbxassetid://297694300]];
+G2L["d"]["Size"] = UDim2.new(1.235374927520752, 0, 1.25, 0);
+G2L["d"]["Name"] = [[DropShadow]];
+G2L["d"]["BackgroundTransparency"] = 1;
+G2L["d"]["Position"] = UDim2.new(-0.11268746852874756, 0, -0.12186983972787857, 0);
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.Background
+G2L["e"] = Instance.new("Frame", G2L["a"]);
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(26, 119, 211);
+G2L["e"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["e"]["BackgroundTransparency"] = 1;
+G2L["e"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["e"]["ClipsDescendants"] = true;
+G2L["e"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["e"]["Name"] = [[Background]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.RippleEffect
+G2L["f"] = Instance.new("LocalScript", G2L["a"]);
+G2L["f"]["Name"] = [[RippleEffect]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.LocalScript
+G2L["10"] = Instance.new("LocalScript", G2L["a"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.UIGridLayout
+G2L["11"] = Instance.new("UIGridLayout", G2L["9"]);
+G2L["11"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["11"]["CellSize"] = UDim2.new(0, 96, 0, 36);
+G2L["11"]["CellPadding"] = UDim2.new(0, 39, 0, 10);
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling
+G2L["12"] = Instance.new("TextButton", G2L["9"]);
+G2L["12"]["TextWrapped"] = true;
+G2L["12"]["TextSize"] = 14;
+G2L["12"]["TextScaled"] = true;
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12"]["Size"] = UDim2.new(0, 96, 0, 36);
+G2L["12"]["Name"] = [[Fling]];
+G2L["12"]["Text"] = [[Fling]];
+G2L["12"]["Font"] = Enum.Font.Unknown;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.UIStroke
+G2L["13"] = Instance.new("UIStroke", G2L["12"]);
+G2L["13"]["Color"] = Color3.fromRGB(171, 86, 255);
+G2L["13"]["Thickness"] = 2;
+G2L["13"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.UICorner
+G2L["14"] = Instance.new("UICorner", G2L["12"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.DropShadow
+G2L["15"] = Instance.new("ImageLabel", G2L["12"]);
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15"]["ImageColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["15"]["ImageTransparency"] = 0.5;
+G2L["15"]["Image"] = [[rbxassetid://297694300]];
+G2L["15"]["Size"] = UDim2.new(1.235374927520752, 0, 1.25, 0);
+G2L["15"]["Name"] = [[DropShadow]];
+G2L["15"]["BackgroundTransparency"] = 1;
+G2L["15"]["Position"] = UDim2.new(-0.11268746852874756, 0, -0.12186983972787857, 0);
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.Background
+G2L["16"] = Instance.new("Frame", G2L["12"]);
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(26, 119, 211);
+G2L["16"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["16"]["BackgroundTransparency"] = 1;
+G2L["16"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["16"]["ClipsDescendants"] = true;
+G2L["16"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["16"]["Name"] = [[Background]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.RippleEffect
+G2L["17"] = Instance.new("LocalScript", G2L["12"]);
+G2L["17"]["Name"] = [[RippleEffect]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.LocalScript
+G2L["18"] = Instance.new("LocalScript", G2L["12"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring
+G2L["19"] = Instance.new("TextButton", G2L["9"]);
+G2L["19"]["TextWrapped"] = true;
+G2L["19"]["TextSize"] = 14;
+G2L["19"]["TextScaled"] = true;
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19"]["Size"] = UDim2.new(0, 96, 0, 36);
+G2L["19"]["Name"] = [[Bring]];
+G2L["19"]["Text"] = [[Bring]];
+G2L["19"]["Font"] = Enum.Font.Unknown;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.UIStroke
+G2L["1a"] = Instance.new("UIStroke", G2L["19"]);
+G2L["1a"]["Color"] = Color3.fromRGB(171, 86, 255);
+G2L["1a"]["Thickness"] = 2;
+G2L["1a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.UICorner
+G2L["1b"] = Instance.new("UICorner", G2L["19"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.DropShadow
+G2L["1c"] = Instance.new("ImageLabel", G2L["19"]);
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["ImageColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["1c"]["ImageTransparency"] = 0.5;
+G2L["1c"]["Image"] = [[rbxassetid://297694300]];
+G2L["1c"]["Size"] = UDim2.new(1.235374927520752, 0, 1.25, 0);
+G2L["1c"]["Name"] = [[DropShadow]];
+G2L["1c"]["BackgroundTransparency"] = 1;
+G2L["1c"]["Position"] = UDim2.new(-0.11268746852874756, 0, -0.12186983972787857, 0);
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.Background
+G2L["1d"] = Instance.new("Frame", G2L["19"]);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(26, 119, 211);
+G2L["1d"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1d"]["BackgroundTransparency"] = 1;
+G2L["1d"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["1d"]["ClipsDescendants"] = true;
+G2L["1d"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["1d"]["Name"] = [[Background]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.RippleEffect
+G2L["1e"] = Instance.new("LocalScript", G2L["19"]);
+G2L["1e"]["Name"] = [[RippleEffect]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.LocalScript
+G2L["1f"] = Instance.new("LocalScript", G2L["19"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill
+G2L["20"] = Instance.new("TextButton", G2L["9"]);
+G2L["20"]["TextWrapped"] = true;
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["TextScaled"] = true;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(34, 17, 50);
+G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["Size"] = UDim2.new(0, 96, 0, 36);
+G2L["20"]["Name"] = [[Kill]];
+G2L["20"]["Text"] = [[Kill]];
+G2L["20"]["Font"] = Enum.Font.Unknown;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.UIStroke
+G2L["21"] = Instance.new("UIStroke", G2L["20"]);
+G2L["21"]["Color"] = Color3.fromRGB(171, 86, 255);
+G2L["21"]["Thickness"] = 2;
+G2L["21"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.UICorner
+G2L["22"] = Instance.new("UICorner", G2L["20"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.DropShadow
+G2L["23"] = Instance.new("ImageLabel", G2L["20"]);
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["ImageColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["23"]["ImageTransparency"] = 0.5;
+G2L["23"]["Image"] = [[rbxassetid://297694300]];
+G2L["23"]["Size"] = UDim2.new(1.235374927520752, 0, 1.25, 0);
+G2L["23"]["Name"] = [[DropShadow]];
+G2L["23"]["BackgroundTransparency"] = 1;
+G2L["23"]["Position"] = UDim2.new(-0.11268746852874756, 0, -0.12186983972787857, 0);
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.Background
+G2L["24"] = Instance.new("Frame", G2L["20"]);
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(26, 119, 211);
+G2L["24"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["24"]["BackgroundTransparency"] = 1;
+G2L["24"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["24"]["ClipsDescendants"] = true;
+G2L["24"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["24"]["Name"] = [[Background]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.RippleEffect
+G2L["25"] = Instance.new("LocalScript", G2L["20"]);
+G2L["25"]["Name"] = [[RippleEffect]];
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.LocalScript
+G2L["26"] = Instance.new("LocalScript", G2L["20"]);
+
+
+-- StarterGui.ScreenGui.Main.TextLabel
+G2L["27"] = Instance.new("TextLabel", G2L["2"]);
+G2L["27"]["TextWrapped"] = true;
+G2L["27"]["TextScaled"] = true;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["TextSize"] = 14;
+G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["Size"] = UDim2.new(0, 200, 0, 25);
+G2L["27"]["Text"] = [[Script By Sizz#0880]];
+G2L["27"]["Font"] = Enum.Font.Unknown;
+G2L["27"]["BackgroundTransparency"] = 1;
+G2L["27"]["Position"] = UDim2.new(0.1345454603433609, 0, 0.8579357862472534, 0);
+
+-- StarterGui.ScreenGui.Main.DropShadow
+G2L["28"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["ImageColor3"] = Color3.fromRGB(171, 86, 255);
+G2L["28"]["ImageTransparency"] = 0.5;
+G2L["28"]["Image"] = [[rbxassetid://297694300]];
+G2L["28"]["Size"] = UDim2.new(1.235374927520752, 0, 1.227900505065918, 0);
+G2L["28"]["Name"] = [[DropShadow]];
+G2L["28"]["BackgroundTransparency"] = 1;
+G2L["28"]["Position"] = UDim2.new(-0.11268749088048935, 0, -0.12186983972787857, 0);
+
+-- StarterGui.ScreenGui.Main.Dragify
+G2L["29"] = Instance.new("LocalScript", G2L["2"]);
+G2L["29"]["Name"] = [[Dragify]];
+
+-- StarterGui.ScreenGui.Main.LocalScript
+G2L["2a"] = Instance.new("LocalScript", G2L["2"]);
+
+
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.RippleEffect
+local function C_f()
+local script = G2L["f"];
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	local mouse = Players.LocalPlayer:GetMouse()
+	
+	local button = script.Parent
+	local background = button:WaitForChild("Background")
+	
+	local active = false
+	local hovering = false
+	
+	local function CreateCircle()
+		local circle = Instance.new("Frame")
+		local cornerRadius = Instance.new("UICorner")
+		
+		circle.AnchorPoint = Vector2.new(0.5, 0.5)
+		circle.BackgroundColor3 = Color3.fromRGB(25, 118, 210)
+		circle.Size = UDim2.new(0, 0, 0, 0)
+		
+		cornerRadius.CornerRadius = UDim.new(0.5, 0)
+		cornerRadius.Parent = circle
+		
+		return circle
+	end
+	
+	local function CalculateDistance(pointA, pointB)
+		return math.sqrt(((pointB.X - pointA.X) ^ 2) + ((pointB.Y - pointA.Y) ^ 2))
+	end
+	
+	local function OnMouseButton1Down()
+		active = true
+		
+		local buttonAbsoluteSize = button.AbsoluteSize
+		local buttonAbsolutePosition = button.AbsolutePosition
+		
+		local mouseAbsolutePosition = Vector2.new(mouse.X, mouse.Y)
+		local mouseRelativePosition = (mouseAbsolutePosition - buttonAbsolutePosition)
+		
+		local circle = CreateCircle()
+		
+		circle.BackgroundTransparency = 0.84
+		circle.Position = UDim2.new(0, mouseRelativePosition.X, 0, mouseRelativePosition.Y)
+		circle.Parent = background
+		
+		local topLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, 0))
+		local topRight = CalculateDistance(mouseRelativePosition, Vector2.new(buttonAbsoluteSize.X, 0))
+		local bottomRight = CalculateDistance(mouseRelativePosition, buttonAbsoluteSize)
+		local bottomLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, buttonAbsoluteSize.Y))
+		
+		local size = math.max(topLeft, topRight, bottomRight, bottomLeft) * 2
+		
+		local tweenTime = 0.5 -- seconds
+		local startedTimestamp
+		local completed = false
+		
+		local expand = TweenService:Create(
+			circle,
+			TweenInfo.new(
+				tweenTime,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.Out
+			),
+			{ Size = UDim2.new(0, size, 0, size) }
+		)
+		
+		local connection
+		connection = RunService.RenderStepped:Connect(function()
+			if not active then
+				connection:Disconnect()
+				
+				local defaultTime = (tweenTime / 3)
+				local timeRemaining = tweenTime - (os.time() - startedTimestamp)
+				local newTweenTime = not completed and timeRemaining > defaultTime and timeRemaining or defaultTime
+				
+				local fadeOut = TweenService:Create(
+					circle,
+					TweenInfo.new(
+						newTweenTime,
+						Enum.EasingStyle.Linear,
+						Enum.EasingDirection.Out
+					),
+					{ BackgroundTransparency = 1 }
+				)
+				
+				fadeOut:Play()
+				fadeOut.Completed:Wait()
+				
+				circle:Destroy()
+			end
+		end)
+		
+		expand:Play()
+		startedTimestamp = os.time()
+		expand.Completed:Wait()
+		
+		completed = true
+	end
+	
+	local function OnMouseButton1Up()
+		active = false
+	end
+	
+	local function OnMouseEnter()
+		hovering = true
+		
+		local tweenTime = 0.125
+		local tweenInfo = TweenInfo.new(
+			tweenTime,
+			Enum.EasingStyle.Linear,
+			Enum.EasingDirection.Out
+		)
+		
+		local backgroundFadeIn = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 0.95 })
+		local borderFadeIn = TweenService:Create(background.Border, tweenInfo, { Transparency = 0 })
+		
+		backgroundFadeIn:Play()
+		borderFadeIn:Play()
+		
+		backgroundFadeIn.Completed:Wait()
+		
+		local backgroundFadeOut = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 1 })
+		local borderFadeOut = TweenService:Create(background.Border, tweenInfo, { Transparency = 0.5 })
+		
+		repeat wait() until not hovering
+		
+		backgroundFadeOut:Play()
+		borderFadeOut:Play()
+	end
+	
+	local function OnMouseLeave()
+		hovering = false
+		active = false
+	end
+	
+	button.MouseButton1Down:Connect(OnMouseButton1Down)
+	button.MouseButton1Up:Connect(OnMouseButton1Up)
+	
+	button.MouseEnter:Connect(OnMouseEnter)
+	button.MouseLeave:Connect(OnMouseLeave)
+end;
+task.spawn(C_f);
+-- StarterGui.ScreenGui.Main.btnsHolder.Teleport.LocalScript
+local function C_10()
+local script = G2L["10"];
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local function RemoveSpaces(String)
+		return String:gsub("%s+", "") or String
+	end
+	
+	local function FindPlayer(String)
+		String = RemoveSpaces(String)
+		for _, _Player in pairs(Players:GetPlayers()) do
+			if _Player.Name:lower():match('^'.. String:lower()) then
+				return _Player
+			end
+		end
+		return nil
+	end
+	script.Parent.MouseButton1Down:Connect(function()
+		local plr = game.Players.LocalPlayer
+		local target = FindPlayer(script.Parent.Parent.Parent.NameT.Text)
+		plr.Character.HumanoidRootPart.CFrame = game.Players[target.Text].Character.HumanoidRootPart.CFrame
+	end)
+end;
+task.spawn(C_10);
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.RippleEffect
+local function C_17()
+local script = G2L["17"];
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	local mouse = Players.LocalPlayer:GetMouse()
+	
+	local button = script.Parent
+	local background = button:WaitForChild("Background")
+	
+	local active = false
+	local hovering = false
+	
+	local function CreateCircle()
+		local circle = Instance.new("Frame")
+		local cornerRadius = Instance.new("UICorner")
+		
+		circle.AnchorPoint = Vector2.new(0.5, 0.5)
+		circle.BackgroundColor3 = Color3.fromRGB(25, 118, 210)
+		circle.Size = UDim2.new(0, 0, 0, 0)
+		
+		cornerRadius.CornerRadius = UDim.new(0.5, 0)
+		cornerRadius.Parent = circle
+		
+		return circle
+	end
+	
+	local function CalculateDistance(pointA, pointB)
+		return math.sqrt(((pointB.X - pointA.X) ^ 2) + ((pointB.Y - pointA.Y) ^ 2))
+	end
+	
+	local function OnMouseButton1Down()
+		active = true
+		
+		local buttonAbsoluteSize = button.AbsoluteSize
+		local buttonAbsolutePosition = button.AbsolutePosition
+		
+		local mouseAbsolutePosition = Vector2.new(mouse.X, mouse.Y)
+		local mouseRelativePosition = (mouseAbsolutePosition - buttonAbsolutePosition)
+		
+		local circle = CreateCircle()
+		
+		circle.BackgroundTransparency = 0.84
+		circle.Position = UDim2.new(0, mouseRelativePosition.X, 0, mouseRelativePosition.Y)
+		circle.Parent = background
+		
+		local topLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, 0))
+		local topRight = CalculateDistance(mouseRelativePosition, Vector2.new(buttonAbsoluteSize.X, 0))
+		local bottomRight = CalculateDistance(mouseRelativePosition, buttonAbsoluteSize)
+		local bottomLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, buttonAbsoluteSize.Y))
+		
+		local size = math.max(topLeft, topRight, bottomRight, bottomLeft) * 2
+		
+		local tweenTime = 0.5 -- seconds
+		local startedTimestamp
+		local completed = false
+		
+		local expand = TweenService:Create(
+			circle,
+			TweenInfo.new(
+				tweenTime,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.Out
+			),
+			{ Size = UDim2.new(0, size, 0, size) }
+		)
+		
+		local connection
+		connection = RunService.RenderStepped:Connect(function()
+			if not active then
+				connection:Disconnect()
+				
+				local defaultTime = (tweenTime / 3)
+				local timeRemaining = tweenTime - (os.time() - startedTimestamp)
+				local newTweenTime = not completed and timeRemaining > defaultTime and timeRemaining or defaultTime
+				
+				local fadeOut = TweenService:Create(
+					circle,
+					TweenInfo.new(
+						newTweenTime,
+						Enum.EasingStyle.Linear,
+						Enum.EasingDirection.Out
+					),
+					{ BackgroundTransparency = 1 }
+				)
+				
+				fadeOut:Play()
+				fadeOut.Completed:Wait()
+				
+				circle:Destroy()
+			end
+		end)
+		
+		expand:Play()
+		startedTimestamp = os.time()
+		expand.Completed:Wait()
+		
+		completed = true
+	end
+	
+	local function OnMouseButton1Up()
+		active = false
+	end
+	
+	local function OnMouseEnter()
+		hovering = true
+		
+		local tweenTime = 0.125
+		local tweenInfo = TweenInfo.new(
+			tweenTime,
+			Enum.EasingStyle.Linear,
+			Enum.EasingDirection.Out
+		)
+		
+		local backgroundFadeIn = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 0.95 })
+		local borderFadeIn = TweenService:Create(background.Border, tweenInfo, { Transparency = 0 })
+		
+		backgroundFadeIn:Play()
+		borderFadeIn:Play()
+		
+		backgroundFadeIn.Completed:Wait()
+		
+		local backgroundFadeOut = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 1 })
+		local borderFadeOut = TweenService:Create(background.Border, tweenInfo, { Transparency = 0.5 })
+		
+		repeat wait() until not hovering
+		
+		backgroundFadeOut:Play()
+		borderFadeOut:Play()
+	end
+	
+	local function OnMouseLeave()
+		hovering = false
+		active = false
+	end
+	
+	button.MouseButton1Down:Connect(OnMouseButton1Down)
+	button.MouseButton1Up:Connect(OnMouseButton1Up)
+	
+	button.MouseEnter:Connect(OnMouseEnter)
+	button.MouseLeave:Connect(OnMouseLeave)
+end;
+task.spawn(C_17);
+-- StarterGui.ScreenGui.Main.btnsHolder.Fling.LocalScript
+local function C_18()
+local script = G2L["18"];
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local function RemoveSpaces(String)
+		return String:gsub("%s+", "") or String
+	end
+	
+	local function FindPlayer(String)
+		String = RemoveSpaces(String)
+		for _, _Player in pairs(Players:GetPlayers()) do
+			if _Player.Name:lower():match('^'.. String:lower()) then
+				return _Player
+			end
+		end
+		return nil
+	end
+	script.Parent.MouseButton1Down:Connect(function()
+		local plr = game.Players.LocalPlayer
+		local target = FindPlayer(script.Parent.Parent.Parent.NameT.Text)
+		
+	end)
+end;
+task.spawn(C_18);
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.RippleEffect
+local function C_1e()
+local script = G2L["1e"];
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	local mouse = Players.LocalPlayer:GetMouse()
+	
+	local button = script.Parent
+	local background = button:WaitForChild("Background")
+	
+	local active = false
+	local hovering = false
+	
+	local function CreateCircle()
+		local circle = Instance.new("Frame")
+		local cornerRadius = Instance.new("UICorner")
+		
+		circle.AnchorPoint = Vector2.new(0.5, 0.5)
+		circle.BackgroundColor3 = Color3.fromRGB(25, 118, 210)
+		circle.Size = UDim2.new(0, 0, 0, 0)
+		
+		cornerRadius.CornerRadius = UDim.new(0.5, 0)
+		cornerRadius.Parent = circle
+		
+		return circle
+	end
+	
+	local function CalculateDistance(pointA, pointB)
+		return math.sqrt(((pointB.X - pointA.X) ^ 2) + ((pointB.Y - pointA.Y) ^ 2))
+	end
+	
+	local function OnMouseButton1Down()
+		active = true
+		
+		local buttonAbsoluteSize = button.AbsoluteSize
+		local buttonAbsolutePosition = button.AbsolutePosition
+		
+		local mouseAbsolutePosition = Vector2.new(mouse.X, mouse.Y)
+		local mouseRelativePosition = (mouseAbsolutePosition - buttonAbsolutePosition)
+		
+		local circle = CreateCircle()
+		
+		circle.BackgroundTransparency = 0.84
+		circle.Position = UDim2.new(0, mouseRelativePosition.X, 0, mouseRelativePosition.Y)
+		circle.Parent = background
+		
+		local topLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, 0))
+		local topRight = CalculateDistance(mouseRelativePosition, Vector2.new(buttonAbsoluteSize.X, 0))
+		local bottomRight = CalculateDistance(mouseRelativePosition, buttonAbsoluteSize)
+		local bottomLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, buttonAbsoluteSize.Y))
+		
+		local size = math.max(topLeft, topRight, bottomRight, bottomLeft) * 2
+		
+		local tweenTime = 0.5 -- seconds
+		local startedTimestamp
+		local completed = false
+		
+		local expand = TweenService:Create(
+			circle,
+			TweenInfo.new(
+				tweenTime,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.Out
+			),
+			{ Size = UDim2.new(0, size, 0, size) }
+		)
+		
+		local connection
+		connection = RunService.RenderStepped:Connect(function()
+			if not active then
+				connection:Disconnect()
+				
+				local defaultTime = (tweenTime / 3)
+				local timeRemaining = tweenTime - (os.time() - startedTimestamp)
+				local newTweenTime = not completed and timeRemaining > defaultTime and timeRemaining or defaultTime
+				
+				local fadeOut = TweenService:Create(
+					circle,
+					TweenInfo.new(
+						newTweenTime,
+						Enum.EasingStyle.Linear,
+						Enum.EasingDirection.Out
+					),
+					{ BackgroundTransparency = 1 }
+				)
+				
+				fadeOut:Play()
+				fadeOut.Completed:Wait()
+				
+				circle:Destroy()
+			end
+		end)
+		
+		expand:Play()
+		startedTimestamp = os.time()
+		expand.Completed:Wait()
+		
+		completed = true
+	end
+	
+	local function OnMouseButton1Up()
+		active = false
+	end
+	
+	local function OnMouseEnter()
+		hovering = true
+		
+		local tweenTime = 0.125
+		local tweenInfo = TweenInfo.new(
+			tweenTime,
+			Enum.EasingStyle.Linear,
+			Enum.EasingDirection.Out
+		)
+		
+		local backgroundFadeIn = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 0.95 })
+		local borderFadeIn = TweenService:Create(background.Border, tweenInfo, { Transparency = 0 })
+		
+		backgroundFadeIn:Play()
+		borderFadeIn:Play()
+		
+		backgroundFadeIn.Completed:Wait()
+		
+		local backgroundFadeOut = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 1 })
+		local borderFadeOut = TweenService:Create(background.Border, tweenInfo, { Transparency = 0.5 })
+		
+		repeat wait() until not hovering
+		
+		backgroundFadeOut:Play()
+		borderFadeOut:Play()
+	end
+	
+	local function OnMouseLeave()
+		hovering = false
+		active = false
+	end
+	
+	button.MouseButton1Down:Connect(OnMouseButton1Down)
+	button.MouseButton1Up:Connect(OnMouseButton1Up)
+	
+	button.MouseEnter:Connect(OnMouseEnter)
+	button.MouseLeave:Connect(OnMouseLeave)
+end;
+task.spawn(C_1e);
+-- StarterGui.ScreenGui.Main.btnsHolder.Bring.LocalScript
+local function C_1f()
+local script = G2L["1f"];
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local function RemoveSpaces(String)
+		return String:gsub("%s+", "") or String
+	end
+	
+	local function FindPlayer(String)
+		String = RemoveSpaces(String)
+		for _, _Player in pairs(Players:GetPlayers()) do
+			if _Player.Name:lower():match('^'.. String:lower()) then
+				return _Player
+			end
+		end
+		return nil
+	end
+	script.Parent.MouseButton1Down:Connect(function()
+		local plr = game.Players.LocalPlayer
+		local target = FindPlayer(script.Parent.Parent.Parent.NameT.Text)
+		local Target = target.Text
+		local NOW = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.Humanoid.Name = 1
+		local l = game.Players.LocalPlayer.Character["1"]:Clone()
+		l.Parent = game.Players.LocalPlayer.Character
+		l.Name = "Humanoid"
+		wait(0.1)
+		game.Players.LocalPlayer.Character["1"]:Destroy()
+		game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character.Animate.Disabled = true
+		wait(0.1)
+		game.Players.LocalPlayer.Character.Animate.Disabled = false
+		game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+		for i,v in pairs(game:GetService'Players'.LocalPlayer.Backpack:GetChildren())do
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+		end
+		local function tp(player,player2)
+			local char1,char2=player.Character,player2.Character
+			if char1 and char2 then
+				char1.HumanoidRootPart.CFrame = char2.HumanoidRootPart.CFrame
+			end
+		end
+		local function getout(player,player2)
+			local char1,char2=player.Character,player2.Character
+			if char1 and char2 then
+				char1:MoveTo(char2.Head.Position)
+			end
+		end
+		tp(game.Players[Target], game.Players.LocalPlayer)
+		wait(0.1)
+		tp(game.Players[Target], game.Players.LocalPlayer)
+		wait(0.3)
+		getout(game.Players.LocalPlayer, game.Players[Target])
+		wait(0.2)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = NOW
+	end)
+end;
+task.spawn(C_1f);
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.RippleEffect
+local function C_25()
+local script = G2L["25"];
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local TweenService = game:GetService("TweenService")
+	
+	local mouse = Players.LocalPlayer:GetMouse()
+	
+	local button = script.Parent
+	local background = button:WaitForChild("Background")
+	
+	local active = false
+	local hovering = false
+	
+	local function CreateCircle()
+		local circle = Instance.new("Frame")
+		local cornerRadius = Instance.new("UICorner")
+		
+		circle.AnchorPoint = Vector2.new(0.5, 0.5)
+		circle.BackgroundColor3 = Color3.fromRGB(25, 118, 210)
+		circle.Size = UDim2.new(0, 0, 0, 0)
+		
+		cornerRadius.CornerRadius = UDim.new(0.5, 0)
+		cornerRadius.Parent = circle
+		
+		return circle
+	end
+	
+	local function CalculateDistance(pointA, pointB)
+		return math.sqrt(((pointB.X - pointA.X) ^ 2) + ((pointB.Y - pointA.Y) ^ 2))
+	end
+	
+	local function OnMouseButton1Down()
+		active = true
+		
+		local buttonAbsoluteSize = button.AbsoluteSize
+		local buttonAbsolutePosition = button.AbsolutePosition
+		
+		local mouseAbsolutePosition = Vector2.new(mouse.X, mouse.Y)
+		local mouseRelativePosition = (mouseAbsolutePosition - buttonAbsolutePosition)
+		
+		local circle = CreateCircle()
+		
+		circle.BackgroundTransparency = 0.84
+		circle.Position = UDim2.new(0, mouseRelativePosition.X, 0, mouseRelativePosition.Y)
+		circle.Parent = background
+		
+		local topLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, 0))
+		local topRight = CalculateDistance(mouseRelativePosition, Vector2.new(buttonAbsoluteSize.X, 0))
+		local bottomRight = CalculateDistance(mouseRelativePosition, buttonAbsoluteSize)
+		local bottomLeft = CalculateDistance(mouseRelativePosition, Vector2.new(0, buttonAbsoluteSize.Y))
+		
+		local size = math.max(topLeft, topRight, bottomRight, bottomLeft) * 2
+		
+		local tweenTime = 0.5 -- seconds
+		local startedTimestamp
+		local completed = false
+		
+		local expand = TweenService:Create(
+			circle,
+			TweenInfo.new(
+				tweenTime,
+				Enum.EasingStyle.Linear,
+				Enum.EasingDirection.Out
+			),
+			{ Size = UDim2.new(0, size, 0, size) }
+		)
+		
+		local connection
+		connection = RunService.RenderStepped:Connect(function()
+			if not active then
+				connection:Disconnect()
+				
+				local defaultTime = (tweenTime / 3)
+				local timeRemaining = tweenTime - (os.time() - startedTimestamp)
+				local newTweenTime = not completed and timeRemaining > defaultTime and timeRemaining or defaultTime
+				
+				local fadeOut = TweenService:Create(
+					circle,
+					TweenInfo.new(
+						newTweenTime,
+						Enum.EasingStyle.Linear,
+						Enum.EasingDirection.Out
+					),
+					{ BackgroundTransparency = 1 }
+				)
+				
+				fadeOut:Play()
+				fadeOut.Completed:Wait()
+				
+				circle:Destroy()
+			end
+		end)
+		
+		expand:Play()
+		startedTimestamp = os.time()
+		expand.Completed:Wait()
+		
+		completed = true
+	end
+	
+	local function OnMouseButton1Up()
+		active = false
+	end
+	
+	local function OnMouseEnter()
+		hovering = true
+		
+		local tweenTime = 0.125
+		local tweenInfo = TweenInfo.new(
+			tweenTime,
+			Enum.EasingStyle.Linear,
+			Enum.EasingDirection.Out
+		)
+		
+		local backgroundFadeIn = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 0.95 })
+		local borderFadeIn = TweenService:Create(background.Border, tweenInfo, { Transparency = 0 })
+		
+		backgroundFadeIn:Play()
+		borderFadeIn:Play()
+		
+		backgroundFadeIn.Completed:Wait()
+		
+		local backgroundFadeOut = TweenService:Create(background, tweenInfo, { BackgroundTransparency = 1 })
+		local borderFadeOut = TweenService:Create(background.Border, tweenInfo, { Transparency = 0.5 })
+		
+		repeat wait() until not hovering
+		
+		backgroundFadeOut:Play()
+		borderFadeOut:Play()
+	end
+	
+	local function OnMouseLeave()
+		hovering = false
+		active = false
+	end
+	
+	button.MouseButton1Down:Connect(OnMouseButton1Down)
+	button.MouseButton1Up:Connect(OnMouseButton1Up)
+	
+	button.MouseEnter:Connect(OnMouseEnter)
+	button.MouseLeave:Connect(OnMouseLeave)
+end;
+task.spawn(C_25);
+-- StarterGui.ScreenGui.Main.btnsHolder.Kill.LocalScript
+local function C_26()
+local script = G2L["26"];
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local function RemoveSpaces(String)
+		return String:gsub("%s+", "") or String
+	end
+	
+	local function FindPlayer(String)
+		String = RemoveSpaces(String)
+		for _, _Player in pairs(Players:GetPlayers()) do
+			if _Player.Name:lower():match('^'.. String:lower()) then
+				return _Player
+			end
+		end
+		return nil
+	end
+	script.Parent.MouseButton1Down:Connect(function()
+			local plr = game.Players.LocalPlayer
+			local Target = FindPlayer(script.Parent.Parent.Parent.NameT.Text)
+			if Target and Target.Character then
+				local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+				local Torso = Character:FindFirstChild("Torso") or Character:FindFirstChild("UpperTorso")
+	
+				local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+				Torso.Anchored = true
+				local tool = Instance.new("Tool", LocalPlayer.Backpack)
+				local hat = LocalPlayer.Character:FindFirstChildOfClass("Accessory")
+				local hathandle = hat.Handle
+				hathandle.Parent = tool
+				hathandle.Massless = true
+				tool.GripPos = Vector3.new(0, 9e99, 0)
+				tool.Parent = LocalPlayer.Character
+				repeat wait() until LocalPlayer.Character:FindFirstChildOfClass("Tool") ~= nil
+				tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+				Torso.Anchored = false
+				repeat LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Target.Character:FindFirstChild("HumanoidRootPart").CFrame wait()
+				until Target.Character == nil or Target.Character:FindFirstChild("Humanoid").Health <= 0 or LocalPlayer.Character == nil or LocalPlayer.Character:FindFirstChild("Humanoid").Health <= 0 or (Target.Character:FindFirstChild("HumanoidRootPart").Velocity.magnitude - Target.Character:FindFirstChild("Humanoid").WalkSpeed) > (Target.Character:FindFirstChild("Humanoid").WalkSpeed + 20)
+				LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+				hathandle.Parent = hat
+				hathandle.Massless = false
+				tool:Destroy()
+				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+			else
+				warn'no player found named like that or he has no char'
+			end
+	end)
+end;
+task.spawn(C_26);
+-- StarterGui.ScreenGui.Main.Dragify
+local function C_29()
+local script = G2L["29"];
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end;
+task.spawn(C_29);
+-- StarterGui.ScreenGui.Main.LocalScript
+local function C_2a()
+local script = G2L["2a"];
+	function onKeyPress(inputObject, gameProcessedEvent)
+		if not gameProcessedEvent then
+			if inputObject.KeyCode == Enum.KeyCode.RightControl  then -- change 'E' to any key on the keyboard. EX: Tab
+				script.Parent.Visible = not script.Parent.Visible
+			end
+		end
+	end
+	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+end;
+task.spawn(C_2a);
+
+return G2L["1"], require;
